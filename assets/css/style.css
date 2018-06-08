@@ -1,0 +1,182 @@
+header {
+    background: #ffffff;
+    border-color: #cccccc;
+    position: fixed;
+    padding: 29px;
+    width: 100%;
+    border-bottom: 1px solid;
+    top: 0;
+    left: 0;
+    z-index: 9001;
+}
+
+nav {
+    background: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 82%;
+    position: fixed;
+    top: 0;
+    left: 160px;
+    z-index: 9002;
+
+}
+
+footer {
+    border-top: 10px solid;
+    border-color: #4aaaa5;
+    background-color: #666666;
+    padding: 30px;
+    margin-top: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+body {
+    background-image: url("../images/what-the-hex.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+section {
+    clear: both;
+    width: 80%;
+    margin: 100px 150px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #dddddd;
+    font-size: 28px;
+    color: #4aaaa5;
+    padding: 20px;
+}
+
+article {
+    margin: 20px;
+    color: #777777;
+    border-top: 1px solid;
+    padding: 20px;
+    font-size: 20px;
+}
+
+p {
+    padding: 10px;
+}
+
+input {
+    width: 20%;
+    padding: 10px;
+    margin: 20px 0px;
+    border: 1px solid;
+    box-sizing: border-box;
+    outline: none;
+    cursor: text;
+}
+
+textarea {
+    width: 20%;
+    padding: 10px;
+    margin: 20px 0px;
+    border: 1px solid;
+    box-sizing: border-box;
+    outline: none;
+    cursor: text;
+    resize:none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.myname {
+    padding: 20px;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.navlink {
+    float: left;
+    margin-left: 800px;
+}
+
+.navlink a {
+    text-decoration: none;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    color: #777777;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    background: #ffffff;
+    margin-left: 5px;
+}
+
+.navlink a:hover {
+    color: white;
+    background: #4aaaa5;
+}
+
+.portolinks {
+    display: block;
+    position: relative;
+    padding: 5px;
+    margin: 30px;
+    float: left;
+    border: 2px solid;
+    border-color: #4aaaa5;
+}
+
+.description {
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    
+}
+
+.cleared {
+    clear:both;
+}
+
+.extend {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.extend:focus {
+    width: 100%;
+}
+
+.enlarge {
+    -webkit-transition: width 0.4s height 0.4s ease-in-out;
+    transition: width 0.4s height 0.4s ease-in-out;
+}
+
+.enlarge:focus {
+    width: 100%;
+    height: 500px;
+}
+
+input[type=text]:focus {
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+textarea[type=text]:focus {
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+#myimage {
+    width: 15%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#submitbutton {
+    width: 10%;
+}
