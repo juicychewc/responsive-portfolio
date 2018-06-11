@@ -162,7 +162,7 @@ textarea[type=text]:focus {
 #myimage {
     float: left;
     width: 20%;
-    margin-right: 1vw;
+    margin-right: 2vw;
     margin-bottom: 1vw;
 }
 
@@ -170,3 +170,83 @@ textarea[type=text]:focus {
     width: 100px;
 }
 
+@media screen and (max-width: 990px) {
+
+    #myimage {
+        width: 40%;
+    }
+
+    section {
+        width: 60%;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    textarea {
+        width: 80%;
+    }
+
+    .portolinks {
+        width: 45%;
+    }
+
+    .portolinks img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+    #myimage {
+        width: 50%;
+    }
+
+    .portolinks {
+        width: 45%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    section {
+        width: 100%;
+        margin: 80px 20px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    
+    .myname {
+        width: 100%;
+    }
+
+    nav {
+        text-align: center;
+        align-content: center;
+    }
+
+    #myimage {
+        width: 100%;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .portolinks {
+        width: 100%;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+}
