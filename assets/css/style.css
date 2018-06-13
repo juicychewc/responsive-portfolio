@@ -231,7 +231,10 @@ textarea[type=text]:focus {
 
     nav {
         text-align: center;
-        align-content: center;
+    }
+
+    ul {
+        margin: auto;
     }
 
     #myimage {
