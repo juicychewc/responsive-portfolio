@@ -190,6 +190,7 @@ textarea[type=text]:focus {
 
     .portolinks {
         width: 45%;
+        height: 45%;
     }
 
     .portolinks img {
@@ -202,10 +203,6 @@ textarea[type=text]:focus {
 
     #myimage {
         width: 50%;
-    }
-
-    .portolinks {
-        width: 45%;
     }
 
     p {
